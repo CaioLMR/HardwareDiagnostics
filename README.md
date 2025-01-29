@@ -28,7 +28,6 @@ Realiza diagnósticos de conexão de rede, verificando conectividade e desempenh
 ## Requisitos
 - Sistema operacional: **CentOS 6.10** (pode funcionar em outras versões, mas não testado).
 - Permissões de execução nos scripts (`chmod +x script.sh`).
-- Algumas ferramentas podem ser necessárias, como `ping`, `top`, `dd`, `free`, entre outras.
 
 ## Como Usar
 1. Clone o repositório:
@@ -46,12 +45,6 @@ Realiza diagnósticos de conexão de rede, verificando conectividade e desempenh
    ./memory.sh
    ./network.sh
    ```
-
-## Contribuições
-Se quiser contribuir com melhorias, abra um **pull request** ou relate problemas na seção de **Issues**.
-
-## Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 Criado e testado em **CentOS 6.10**.
