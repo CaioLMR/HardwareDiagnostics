@@ -8,15 +8,16 @@ Este repositório contém três scripts desenvolvidos para auxiliar no diagnóst
 Executa testes de desempenho para CPU e disco, utilizando ferramentas disponíveis no sistema.
 
 **Funcionalidades:**
-- Mede o desempenho da CPU.
-- Avalia a velocidade de leitura/escrita do disco.
+- Gera um stress na CPU da máquina.
+- Monitora a temperatura do processador para identificar possíveis falhas de desempenho ou superaquecimento.
 
 ### 2. `memory.sh`
-Fornece informações detalhadas sobre o uso da memória RAM do sistema.
+Testa toda a memória RAM do sistema para identificar problemas.
 
 **Funcionalidades:**
 - Exibe a quantidade total, utilizada e livre de memória.
 - Lista processos que mais consomem memória.
+- Realiza testes para verificar integridade da memória RAM.
 
 ### 3. `network.sh`
 Realiza diagnósticos de conexão de rede, verificando conectividade e desempenho.
@@ -24,10 +25,12 @@ Realiza diagnósticos de conexão de rede, verificando conectividade e desempenh
 **Funcionalidades:**
 - Testa a conectividade com hosts remotos.
 - Mede a latência e a velocidade da conexão.
+- Mede a integridade da placa de rede e a taxa de transferência.
 
 ## Requisitos
 - Sistema operacional: **CentOS 6.10** (pode funcionar em outras versões, mas não testado).
 - Permissões de execução nos scripts (`chmod +x script.sh`).
+- Algumas ferramentas podem ser necessárias, como `ping`, `top`, `dd`, `free`, entre outras.
 
 ## Como Usar
 1. Clone o repositório:
@@ -48,5 +51,4 @@ Realiza diagnósticos de conexão de rede, verificando conectividade e desempenh
 
 ---
 Criado e testado em **CentOS 6.10**.
-
 
