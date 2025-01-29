@@ -1,5 +1,4 @@
 # HardwareDiagnostics
-# HardwareDiagnostics
 
 Este repositório contém três scripts desenvolvidos para auxiliar no diagnóstico de hardware e desempenho em sistemas Linux, especificamente testados no **CentOS 6.10**.
 
